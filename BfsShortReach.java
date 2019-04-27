@@ -58,7 +58,7 @@ public class BfsShortReach{
 
             int s = in.nextInt() - 1;
 
-            ArrayList<Integer> result = Solution.bfs(adj, s);
+            ArrayList<Integer> result = BfsShortReach.bfs(adj, s);
 
             for (int i = 0; i < n; i++) {
                 if (i != s) {

@@ -53,7 +53,7 @@ public class RoadsAndLibraries{
                 adj.get(u).add(v);
                 adj.get(v).add(u);
             }
-            System.out.println(Solution.solve(cities, costLib, costRoad, adj));
+            System.out.println(RoadsAndLibraries.solve(cities, costLib, costRoad, adj));
         }
     }
 }
